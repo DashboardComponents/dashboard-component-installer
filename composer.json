@@ -15,7 +15,7 @@
     "require": {
 	"php": "^5.6 || ^7.0",
 	"roave/security-advisories": "dev-master",
-	"codingmatters/dashboard-module-ini": "^1.0 || ~0.4.2"
+	"codingmatters/dashboard-module-ini": "^1.0 || ~0.4"
     },
     "extra": {
         "zf": {
