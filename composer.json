@@ -1,0 +1,27 @@
+{
+    "name": "codingmatters/dashboard-component-installer",
+    "description": "Dashboard Component Installer",
+    "type": "metapackage",
+    "keywords": ["dashboard component", "zf module"],
+    "homepage": "https://chronicles.codingmatters.io/dashboard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gab Amba",
+            "email": "gamba@gabbydgab.com",
+            "homepage": "http://www.gabbydgab.com/"
+        }
+    ],    
+    "require": {
+	"php": "^5.6 || ^7.0",
+	"roave/security-advisories": "dev-master",
+	"codingmatters/dashboard-module-ini": "^1.0 || ~0.4.2"
+    },
+    "extra": {
+        "zf": {
+      	    "module": [
+		"Dashboard"
+	    ]
+	}
+    }
+}
